@@ -1,0 +1,22 @@
+{
+    "name": "puppet-oracleclient",
+    "version": "0.1.0",
+    "source": "https://github.com/waldronj/puppet-oracleclient",
+    "author": "Josh Waldron",
+    "license": "MIT",
+    "project_page": "https://github.com/waldronj/puppet-oracleclient",
+    "summary": "Puppet module to help streamline installation of Oracle Client on Windows",
+    "operatingsystem_support": [
+      {
+        "operatingsystem": "Windows",
+        "operatingsystemrelease": [
+          "2008r2",
+          "2012r2"
+        ]
+      },
+    ],
+    "requirements": [
+      { "name": "puppet", "version_requirement": "3.x" }
+    ],
+    "dependencies": []
+}
